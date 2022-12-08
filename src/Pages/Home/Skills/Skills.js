@@ -48,7 +48,7 @@ const Skills = () => {
       <h3 className="text-center font-bold text-5xl mb-7 text-slate-600">My Skills</h3>
       <div className="grid max-w-screen-lg mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         {data.map((item, i) => (
-          <div key={i} className='p-5 rounded-xl  shadow-xl'>
+          <div key={i} className='p-5 rounded-xl border shadow-lg'>
             <img className="bg-white w-48 h-48 rounded-xl mx-auto" src={item.img} alt="" />
             <p className="text-center font-bold mt-2 text-xl">{item.name}</p>
           </div>

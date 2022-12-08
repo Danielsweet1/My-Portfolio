@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="hero  bg-slate-50 px-6 my-20 ">
       <div className="hero-content max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-5">
-        <div className="rounded-xl w-full md:w-[500px]  p-10 shadow-2xl">
+        <div className="rounded-xl w-full md:w-[500px] mx-auto p-10 shadow-2xl">
           <img
             src={about}
             className="w-full  h-full rounded-xl bg-slate-300   "
