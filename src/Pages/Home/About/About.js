@@ -3,8 +3,8 @@ import about from "../../../images/about.png";
 
 const About = () => {
   return (
-    <div className="hero max-w-screen-xl mx-auto my-20 ">
-      <div className="hero-content grid grid-cols-1 md:grid-cols-2 gap-5">
+    <div className="hero  bg-slate-50 px-6 my-20 ">
+      <div className="hero-content max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-5">
         <div className="rounded-xl w-full md:w-[500px]  p-10 shadow-2xl">
           <img
             src={about}
