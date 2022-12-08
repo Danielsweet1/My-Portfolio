@@ -1,11 +1,12 @@
 import React from "react";
 import about from "../../../images/about.png";
+import resume from '../../../images/Resume.pdf'
 
 const About = () => {
   return (
-    <div className="hero  bg-slate-50 px-6 my-20 ">
+    <div className="hero bg-slate-50 px-6 my-20 ">
       <div className="hero-content max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-5">
-        <div className="rounded-xl w-full md:w-[500px] mx-auto p-10 shadow-2xl">
+        <div className="rounded-xl bg-white w-full md:w-[500px] mx-auto p-10 shadow-2xl">
           <img
             src={about}
             className="w-full  h-full rounded-xl bg-slate-300   "
@@ -14,8 +15,8 @@ const About = () => {
         </div>
         <div>
           <p className="text-red-500">VISIT MY PORTFOLIO & HIRE ME</p>
-          <h1 className="text-6xl font-bold text-slate-600">About Me</h1>
-          <p className="py-6">
+          <h1 className="text-6xl font-bold text-slate-700">About Me</h1>
+          <p className="py-6 ">
             Hi, This is Sweet Palma.I have learned Front-end web
             delevopment.Though I am from a different field, I have passion on
             web development That's why I Have learned front-end web development,
@@ -27,7 +28,14 @@ const About = () => {
             with server. 
             I believe that I can add value for any company.
           </p>
-          <button className="btn bg-white hover:bg-white shadow-xl border-none text-red-500 ">Download Resume</button>
+          <button className="btn bg-white hover:bg-white shadow-xl border-none text-red-500 ">
+            <a
+              href={resume}
+              download="Resume.pdf"
+            >
+              Download Resume
+            </a>
+          </button>
         </div>
       </div>
     </div>
