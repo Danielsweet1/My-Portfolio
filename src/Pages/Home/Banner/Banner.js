@@ -14,7 +14,7 @@ const Banner = () => {
         <div className="absolute  top-1/3 " style={{zIndex: '3'}}>
           <h1 className="mb-5 text-7xl font-bold body">Sweet Palma</h1>
           <p className="mb-5 text-3xl">Front-end Web Developer</p>
-          <button className="btn" >Download Resume</button>
+          <button className="btn bg-white hover:bg-white shadow-xl border-none text-red-500 " >Download Resume</button>
         </div>
         <div className="absolute bottom-0 right-12" style={{zIndex: '2'}}>
             <img className="w-[600px]" src={sweet} alt="" />
