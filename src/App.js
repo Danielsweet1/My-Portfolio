@@ -1,6 +1,8 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import Main from './Layouts/Main';
+import Blogs from './Pages/Blogs/Blogs';
+import About from './Pages/Home/About/About';
 import Home from './Pages/Home/Home';
 import ProjectDetails from './Pages/ProjectDetails/ProjectDetails';
 
@@ -12,12 +14,16 @@ function App() {
       children: [
         {
           path: '/',
-          element: <Home></Home>
+          element: <Home></Home>,
         },
         {
           path: '/details/:id',
-          loader: async ({params})=> fetch(`http://localhost:5000/projects/${params.id}`),
+          loader: async ({params})=> fetch(`https://portfolio-server-pi.vercel.app/projects/${params.id}`),
           element: <ProjectDetails></ProjectDetails>
+        },
+        {
+          path: '/blogs',
+          element: <Blogs/>
         }
       ]
     }

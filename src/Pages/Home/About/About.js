@@ -4,7 +4,7 @@ import resume from '../../../images/Resume.pdf'
 
 const About = () => {
   return (
-    <div className="hero bg-slate-50 px-6 my-20 ">
+    <div id="about" className="hero bg-slate-50 px-6 my-20 ">
       <div className="hero-content max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-5">
         <div className="rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 w-full md:w-[500px] mx-auto p-10 shadow-2xl">
           <img

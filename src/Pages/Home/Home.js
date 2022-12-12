@@ -6,6 +6,7 @@ import MyPortfolio from './MyPortfolio/MyPortfolio';
 import Skills from './Skills/Skills';
 
 const Home = () => {
+    
 
     return (
         <div className='bg-base-200'>
