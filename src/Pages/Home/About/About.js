@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="hero bg-slate-50 px-6 my-20 ">
       <div className="hero-content max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-5">
-        <div className="rounded-xl bg-white w-full md:w-[500px] mx-auto p-10 shadow-2xl">
+        <div className="rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 w-full md:w-[500px] mx-auto p-10 shadow-2xl">
           <img
             src={about}
             className="w-full  h-full rounded-xl bg-slate-300   "
@@ -28,7 +28,7 @@ const About = () => {
             with server. 
             I believe that I can add value for any company.
           </p>
-          <button className="btn bg-white hover:bg-white shadow-xl border-none text-red-500 ">
+          <button className="btn border-none bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ">
             <a
               href={resume}
               download="Resume.pdf"

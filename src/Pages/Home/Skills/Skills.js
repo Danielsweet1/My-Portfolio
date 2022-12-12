@@ -48,7 +48,7 @@ const Skills = () => {
       <h3 className="text-center font-extrabold text-5xl mb-7 text-slate-700">My Skills</h3>
       <div className="flex justify-around flex-wrap">
         {data.map((item, i) => (
-          <div key={i} className='p-5 rounded-xl  shadow-lg'>
+          <div key={i} className='p-5 rounded-xl bg-gradient-to-r  hover:from-violet-500 hover:to-pink-500 shadow-lg'>
             <img className="bg-white w-24 h-24 rounded-xl mx-auto" src={item.img} alt="" />
           </div>
         ))}

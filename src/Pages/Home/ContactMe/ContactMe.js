@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-import img from '../../../images/Front-End-Web-Development.webp';
 import emailjs from '@emailjs/browser';
 
 const ContactMe = () => {
@@ -18,8 +17,8 @@ const ContactMe = () => {
   };
   return (
     <div className="max-w-screen-xl mx-auto my-20">
-      <div className=" grid grid-cols-1 md:grid-cols-2 rounded-xl">
-        <div className="bg-violet-800 p-10 rounded-lg">
+      <div className=" grid grid-cols-1 w-full lg:w-1/2 mx-auto rounded-xl">
+        <div className="bg-gradient-to-r from-pink-600 to-green-600 p-10 rounded-lg">
           <h2 className="text-center font-bold text-4xl mb-5 text-white">
             Contact Me
           </h2>
@@ -46,9 +45,6 @@ const ContactMe = () => {
               <input type="submit" value="Submit" className="btn btn-error text-white w-60 " />
             </div>
           </form>
-        </div>
-        <div className="rounded-lg">
-            <img src={img} className="w-full h-full rounded-lg" alt="" />
         </div>
       </div>
     </div>
